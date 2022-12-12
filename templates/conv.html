@@ -7,7 +7,10 @@
 </head>
 <body>
     <div class="cov">
-        <h2>편의시설</h2>     
+        <h2>편의시설</h2>
+        
+        {% for content in contents %}
+                     
             <div class="title">
                 <strong>{{content.title}}</strong>
             </div>
@@ -16,13 +19,12 @@
             </div>
                 
             <div class="inform">
-            {% for content in contents %}
                 <p>위치: {{content.location}}</p>
                 <p>이용시간: {{content.time}}</p>
                 <p>이용요금: {{content.cost}}</p>
                 <p>연락처: {{content.number}}</p>
             {% endfor %} 
-            </div>     
+            </div>        
     </div>
 </body>
 </html>
