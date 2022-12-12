@@ -6,6 +6,7 @@
    
 }
 
+
 body {  
     width: 100%;   
     font-family: 'Hahmlet', serif;
@@ -35,7 +36,7 @@ body {
         font-size: 40px;
 
     }
-    .cov .title strong { 
+    .cov .title p { 
         margin-top: 100px;
         font-size: 30px; 
         padding: 0px; 
@@ -73,3 +74,4 @@ body {
         font-size: 20px; 
         color:rgb(8, 8, 8);
     }
+
